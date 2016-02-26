@@ -17,7 +17,7 @@
 
 #include <wiringPi.h>
 #include <softTone.h>
-#include <include/buzzer_lib.h>
+#include <buzzer_lib.h>
 
 /*Pins used (wiringPi numbers)*/
 int BUZZER_PIN = 1;
