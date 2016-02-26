@@ -77,7 +77,7 @@ first: all
 
 ####### Build rules
 
-all: dependencies Makefile  $(TARGET) 
+all: Makefile  $(TARGET) 
 
 	@echo "\nBuilding Target------------------------------------\n"
 
