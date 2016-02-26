@@ -51,7 +51,7 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = buzzer_lib.c
+SOURCES       = src/buzzer_lib.c
 		
 OBJECTS       = buzzer_lib.o
 
@@ -103,8 +103,8 @@ distclean: clean
 
 ####### Compile
 
-buzzer_lib.o: buzzer_lib.c 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o buzzer_lib.o buzzer_lib.c
+buzzer_lib.o: src/buzzer_lib.c 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o buzzer_lib.o src/buzzer_lib.c
 
 ####### dependencies
 
