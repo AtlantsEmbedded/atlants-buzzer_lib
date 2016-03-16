@@ -104,7 +104,7 @@ distclean: clean
 ####### Compile
 
 buzzer_lib.o: src/buzzer_lib.c 
-	$(CC) -c $(CCFLAGS) $(INCPATH) -o buzzer_lib.o src/buzzer_lib.c
+	$(CC) -c $(CFLAGS) $(INCPATH) -o buzzer_lib.o src/buzzer_lib.c
 
 ####### dependencies
 
