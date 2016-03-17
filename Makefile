@@ -113,7 +113,7 @@ buzzer_lib.o: src/buzzer_lib.c
 install:  
 	$(MKDIR) $(DESTDIR)/lib/
 	$(COPY_FILE) -a lib$(LIBBASENAME).so* $(DESTDIR)/lib
-	$(COPY_FILE) -a *.h $(DESTDIR)/usr/include/
+	$(COPY_FILE) -a include/*.h $(DESTDIR)/usr/include/
 
 uninstall:   FORCE
 
